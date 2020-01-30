@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    width: 100%;
+    background-color: rgb(232,232,232);
+}
+#payment-success {
+    padding: 25px 0;
+    color: white;
+    text-align: center;
+    background-color: rgb(42, 195, 42);
+}
+#trans-succ {
+    font-weight: 600;
+}
+#date-time {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.904);
+}
+#succ-logo-div {
+    padding-bottom: 10px;
+}
+#trans-details-div {
+    background-color: white;
+}
+#trans-id-name {
+    font-weight: 600;
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+#trans-no {
+    font-size: 13px;
+}
+#copy {
+    display: inline;
+    color: #6739B7;
+    font-weight: 600;
+}
+.mini-container {
+    padding: 15px 10px;
+}
+#paid-to-div {
+    margin-top: 10px;
+    background-color: white;
+}
