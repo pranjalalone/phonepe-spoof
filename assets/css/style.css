@@ -45,7 +45,7 @@ html {
     font-weight: 600;
 }
 .mini-container {
-    padding: 15px 10px;
+    padding: 15px 15px;
 }
 #paid-to-div {
     margin-top: 8px;
@@ -68,13 +68,13 @@ html {
 #amount {
     font-weight: 600;
 }
-#trans-extra {
+#trans-extra, #bank-extra {
     font-size: 12px;
     font-weight: 600;
     color: #6739B7;
     padding: 10px;
 }
-#trans-extra div {
+#trans-extra div, #bank-extra div {
     display: inline;
     float: right;
     padding: 0 10px;
@@ -88,6 +88,7 @@ html {
     width: 40px;
 }
 #bank-img {
+    float: left;
     padding: 5px;
 }
 #bank-img img {
@@ -105,4 +106,27 @@ html {
 #bank-amt {
     margin: auto 0;
     font-size: 14px;
+}
+#powered-by-div {
+    padding: 20px 0;
+}
+#powered-by-div div {
+    font-size: 12px;
+    text-align: center;
+    color: gray;
+    padding-bottom: 10px;
+}
+#bhim-logo {
+    width: 65px;
+    height: auto;
+    border-right: 0.5px solid gray;
+    padding-right: 2px;
+    margin: 5px 0;
+}
+#upi-logo {
+    width: 50px;
+    height: auto;
+}
+#yesbank-logo {
+    width: 70px;
 }
