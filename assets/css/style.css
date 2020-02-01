@@ -20,9 +20,10 @@ html {
     padding: 25px 0;
     color: white;
     text-align: center;
-    background-color: rgb(42, 195, 42);
+    background-color: rgb(38, 168, 38);
 }
 #trans-succ {
+    font-size: 18px;
     font-weight: 600;
 }
 #date-time {
@@ -41,10 +42,14 @@ html {
     padding-bottom: 20px;
 }
 #trans-no {
+    display: flex;
     font-size: 12px;
+    padding-bottom: 10px;
 }
 #copy {
-    display: inline;
+    margin-left: auto;
+    order: 2;
+    font-size: 11px;
     color: #6739B7;
     font-weight: 600;
 }
@@ -59,40 +64,40 @@ html {
     display: flex;
     height: 40px;
 }
-#image {
-}
 #image img {
     width: 40px;
 }
 #name, #amount {
-    padding: 0 10px;
+    padding-left: 10px;
     margin: auto 0;
     font-size: 14px;
 }
 #amount {
+    margin-left: auto;
+    order: 2;
     font-weight: 600;
 }
 #trans-extra, #bank-extra {
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 600;
     color: #6739B7;
-    padding: 10px;
+    padding: 20px 0;
 }
 #trans-extra div, #bank-extra div {
     display: inline;
     float: right;
-    padding-left: 10px;
+    padding-left: 20px;
 }
 #debited-from-div {
     background-color: white;
     margin-top: 8px;
 }
-#bank-details {
+#bank-details { 
     display: flex;
-    width: 40px;
+    /* width: 40px; */
 }
 #bank-img {
-    float: left;
+    /* float: left; */
     padding: 5px;
 }
 #bank-img img {
@@ -109,6 +114,7 @@ html {
 }
 #bank-amt {
     margin: auto 0;
+    margin-left: auto;
     font-size: 14px;
 }
 #powered-by-div {
