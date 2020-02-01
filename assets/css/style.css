@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
 }
+html, body {
+    height: 100%;
+}
 body {
     margin: 0;
     padding: 0;
@@ -10,6 +13,7 @@ html {
 }
 .container {
     width: 100%;
+    height: 100%;
     background-color: rgb(232,232,232);
 }
 #payment-success {
@@ -77,7 +81,7 @@ html {
 #trans-extra div, #bank-extra div {
     display: inline;
     float: right;
-    padding: 0 10px;
+    padding-left: 10px;
 }
 #debited-from-div {
     background-color: white;
@@ -129,4 +133,20 @@ html {
 }
 #yesbank-logo {
     width: 70px;
+}
+#done-div {
+    height: 50px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: white;
+    border-top: 0.5px solid rgb(195, 195, 195);
+}
+#done-div div {
+    padding-top: 16px;
+    font-size: 12px;
+    color: #6739B7;
+    font-weight: 600;
+    margin: auto 0;
+    text-align: center;
 }
