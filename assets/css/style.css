@@ -20,7 +20,7 @@ html {
     padding: 25px 0;
     color: white;
     text-align: center;
-    background-color: rgb(38, 168, 38);
+    background-color: #5eaa46;
 }
 #trans-succ {
     font-size: 18px;
@@ -150,8 +150,6 @@ html {
 }
 #done-div div {
     padding-top: 16px;
-    font-size: 12px;
-    color: #6739B7;
     font-weight: 600;
     margin: auto 0;
     text-align: center;
